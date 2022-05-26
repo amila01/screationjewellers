@@ -1,0 +1,180 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+
+body{
+    font-family: 'Prata',serif;
+     background-color:rgba(206, 202, 139, 0.233); 
+}
+/* sinhala */
+#sinhala{
+    font-family: 'Noto Sans Sinhala', sans-serif;
+    font-size: 60px;
+}
+#welcome{
+    font-size: 50px; 
+}
+.carousel-caption{
+    top:50%;
+    color: #b4736f;
+    font-weight: bold;
+    
+}
+
+/* navigation bar */
+.dropdown-item:hover {
+    background-color: rgba(216, 203, 17, 0.534);
+    font-weight: bold;
+    /* border-radius: 2rem; */
+    }
+#logo{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+}
+
+.dropdown-menu {
+    border: none;
+    
+}
+.navbar{
+    margin-top: 15px;
+    
+}
+
+
+.nav-link{
+    font-size: large;
+    margin-left: 20px;
+    /* font-weight: bold; */
+}
+/* navigation bar ends */
+
+/* footer */
+footer{
+    font-size: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(4, 4, 59);
+    color: rgb(216, 203, 17);
+}
+#contact-a{
+    text-transform: none;
+    color: rgb(216, 203, 17);
+}
+
+/* contact */
+.head{
+    color: #1a0c68;
+    text-align: center;
+}
+.con{
+    color: #1a0c68;
+    /* text-align: center; */
+}
+.con-icon{
+    color: #dfb01d;
+}
+/* Design */
+.anc:hover {
+    text-decoration: none;
+    color: #f1c40f;
+}
+
+.anc {
+    color:  rgb(4, 4, 59);
+    font-size: 50px;
+}
+
+.selected {
+    background-color: rgb(4, 4, 59);
+    padding: 5px;
+    font-size: 18px;
+}
+.anc h6{
+    font-size: 18px; 
+}
+.anc h6:hover{
+    font-size: 18px; 
+    background-color: rgba(4, 4, 59, 0.603);
+    padding: 2px;
+}
+
+/* footer */
+@media only screen and (min-width: 1000px) {
+    /* navigation bar  */
+        .caroimg{
+            height: 70vh;
+            width: 100%;
+        }
+        #logo{
+            width: 150px;
+        }
+        #social-media{
+            margin-right: 30px;
+        }
+        .navbar.scrolled {
+            background-color: #fff !important;
+            transition: background-color 1000ms linear;
+            opacity: 0.9;
+            margin-top: 0;
+            
+          }
+        /* navigation bar ends */
+}
+
+@media only screen and (max-width: 1000px) {
+    /* navigation bar  */
+        .caroimg{
+            height: auto;
+        }
+        #logo{
+            width: 150px;
+        }
+        #navbarSupportedContent{
+            padding: 0%;
+            margin-top: 35px;
+            width: 5px;
+            background-color: bisque;
+            opacity: .9;
+            font-weight: bold;
+            
+        }
+        
+         #logo{
+            width: 100px;
+        }
+        
+        #social-media{
+            /* overflow: hidden; */
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+
+        }
+        #contact{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+        /* navigation bar ends */
+}
+@media only screen and (min-width: 992px) and (max-width:1000px){
+    #navbarSupportedContent{
+        background-color: transparent;
+        
+    }
+    #social-media{
+        display: none;
+    }
+    #contact{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        padding-right: 20px;
+    }
+}
+
+
